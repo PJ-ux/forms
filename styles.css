@@ -18,10 +18,12 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 30px 20px;
+  padding: 30px 30px;
   gap: 20px;
   min-height: fit-content;
-  border-radius: 6px;
+  border-radius: 12px;
+  height: 400px;
+  width: 480px;
 }
 .title {
   display: flex;
@@ -47,7 +49,7 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  gap: 15px;
+  
 }
 
 .formcontrol {
@@ -57,6 +59,7 @@ body {
   justify-content: flex-start;
   flex-direction: column;
   gap: 10px;
+  padding: 10px;
 }
 
 .formcontrol label {
@@ -87,4 +90,6 @@ a {text-decoration: none; color: #af04af;
     border-radius: 6px;
     background-color: #af04af;
     color: white;
+    padding: 10px;
+    margin: 10px 0;
 }
